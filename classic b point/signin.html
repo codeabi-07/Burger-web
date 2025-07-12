@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>classic burger point - Sign in</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Burger Logo" class="logo">
+    <h2>🍔 Classic Burger Point</h2>
+
+    <input type="text" id="username" placeholder="Enter your name">
+    <input type="password" id="password" placeholder="Enter your password">
+
+    <div class="option">
+      <label><input type="checkbox" id="rememberMe"> Remember me</label>
+    </div>
+
+    <button onclick="signin()">Sign In</button>
+    <button class="cancel-btn" onclick="clearFields()"><a href="./index.html">Cancel</a></button>
+
+    <p id="message"></p>
+
+    <div class="option">
+      <label><input type="checkbox" id="togglePassword"> Show Password</label>
+    </div>
+
+    <a href="#" class="create-account">Create New Account</a>
+  </div>
+
+  <script src="signin.js"></script>
+</body>
+</html>
